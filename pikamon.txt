@@ -1,0 +1,14 @@
+@bot.command()
+async def tsareena(ctx, *, mov = None):
+  if mov is None:
+    await ctx.send("teste")
+  elif mov == 'move1':
+    await ctx.send("***MOVE 1*** \n**Folha Navalha** \nPelts sai em uma direção designada, causando dano aos Pokémon oponentes. A taxa de acerto crítico para Razor Leaf é maior do que a de ataques básicos.\n***MOVE 1 - Level 5***\n**Pisar**\nFaz o usuário pular alto e atacar Pokémon adversários com os pés. Quando esse movimento atinge, ele causa dano aos Pokémon oponentes e os deixa incapazes de agir por um curto período de tempo\n**Efeito Majestade Rainha:** Restaura HP quando este movimento atinge.\n**Upgrade:** Aumenta o dano causado.")
+  elif mov == 'move2':
+    await ctx.send("move2")
+  elif mov == "unite":
+    await ctx.send("ult")
+  elif mov == "basico":
+    await ctx.send("básico")
+  elif mov == "passiva":
+    await ctx.send("passiva"); 
